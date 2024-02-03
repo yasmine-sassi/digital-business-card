@@ -1,0 +1,108 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#root {
+  margin:0;
+  padding:0;
+  padding-bottom: 0;
+  text-align: center;
+}
+.container{
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(199, 221, 221);
+  border: 2px solid rgb(74, 119, 143);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px rgba(18, 42, 55, 0.335);
+}
+.mainimage {
+  width: 70%;
+  height:70%;
+  margin:5px;
+  padding: 10px;
+  border: 3px solid rgb(44, 79, 98);
+  border-radius: 90px;
+  background-color: rgb(217, 224, 224);
+  
+}
+.mainimage:hover{
+  transition: transform 0.4s ease-in-out;
+  transform: rotate(-7deg);
+}
+.name{
+  font-weight: bold;
+  margin-top: 7px;
+  margin-bottom: 4px;
+  font-size: 45px;
+}
+.job{
+  font-size:16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+.location{
+  margin-bottom: 12px;
+}
+.git{
+  font-weight: 500;
+  letter-spacing: 2px;
+  color:#5d5c5c;
+}
+.git:hover,.git-icon:hover{
+  color: black;
+}
+.git-icon{
+  color: #5d5c5c;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: -2px;
+}
+.contact{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5px;
+  
+}
+.btn{
+  margin: 10px;
+  width: 120px;
+  border: 2px solid rgb(74, 119, 143);
+  border-radius: 5px;
+  background-color: rgb(10, 10, 10);
+  font-weight: 500;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: rgb(74, 119, 143);
+  color: white;
+}
+.email,.linkedin{
+  margin-right: 7px;
+}
+.content{
+  margin: 20px auto;
+  margin-bottom:25px;
+  text-align:justify;
+  border-radius: 10px;
+  width:90%;
+  
+}
+
+.title{
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.about:hover,.interests:hover{
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
